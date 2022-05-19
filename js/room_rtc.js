@@ -26,7 +26,7 @@ if(!roomId){
 //change this to localStorage for deployment
 let displayName = sessionStorage.getItem('display_name')
 if(!displayName){
-    window.location = 'lobby.html'
+    window.location = 'index.html'
 }
 
 
