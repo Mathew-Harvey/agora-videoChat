@@ -1,11 +1,11 @@
 const APP_ID = "e7fa35f7077b4390be7d2d0d5b1f78d5"
 
-let uid = localStorage.getItem('uid')
+let uid = sessionStorage.getItem('uid')
 
 //replace this with diana workflow number
 if (!uid){
     uid = String(Math.floor(Math.random() * 10000))
-    localStorage.setItem('uid', uid)
+    sessionStorage.setItem('uid', uid)
 }
 //end
 
@@ -24,7 +24,7 @@ if(!roomId){
 }
 
 //change this to localStorage for deployment
-let displayName = localStorage.getItem('display_name')
+let displayName = sessionStorage.getItem('display_name')
 if(!displayName){
     window.location = 'index.html'
 }
