@@ -185,6 +185,8 @@
   border-radius: 0;
   height: 100% !important;
   width: 100% !important;
+
+  background-size: 300px;
 }
 
 #stream__box video{
@@ -211,6 +213,10 @@
   overflow: hidden;
   height: 300px;
   width: 300px;
+  background-image: url("/images/logo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 75px;
 }
 
 .video-player {
@@ -301,7 +307,7 @@
   background-color: #1a1a1a60;
   padding: 1rem;
   left: 50%;
-  display: flex;
+  display: none;
   gap: 1rem;
   transform: translateX(-50%);
 }
@@ -332,4 +338,18 @@
 .stream__actions a:hover,
 .stream__actions button:hover {
   background-color: #845695;
+}
+
+#join-btn{
+  background-color: #845695;
+  font-size: 18px;
+  padding: 25px 50px;
+  border: none;
+  color: #fff;
+  position: fixed;
+  bottom: 1rem;
+  border-radius: 8px;
+  left:50%;
+  transform: translateX(-50%);
+  cursor: pointer;
 }
