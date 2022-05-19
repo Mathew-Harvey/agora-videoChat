@@ -110,7 +110,7 @@
 
 .message__body strong {
   font-weight: 600;
-  color: #ede0e0;
+  color: #07B999;
 }
 
 .message__body__bot{
@@ -122,13 +122,13 @@
 
 .message__author {
   margin-right: 10px;
-  color: #2aca3e!important;
+  color: white!important;
 
 }
 
 .message__author__bot {
   margin-right: 10px;
-  color: #a52aca!important;
+  color: #07b999!important;
 
 }
 
