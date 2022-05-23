@@ -1,8 +1,6 @@
 # agora-videoChat
  https://www.agora.io/en/developer-resources/
 
-
-# webRTC Rise-X Test
 ![GitHub followers](https://img.shields.io/github/followers/mathew-harvey?style=social)
 
 ![License type](https://img.shields.io/badge/License-MIT-Blue)
